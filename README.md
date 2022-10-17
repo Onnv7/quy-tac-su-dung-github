@@ -8,14 +8,15 @@
 
 `git log --oneline` : để xem lịch sử commit
 
-`git checkout <commit_code>` : để quay lại commit trước
-
 `git remote add <remote_name> <url>` : tạo remote tới repo github
 
-`git pull <remote_name> main` : pull nhánh main về local
+`git pull <remote_name> main` : pull nhánh main về local, lệnh này bao gồm git fetch và merge
 
 `git checkout -b <branch_name>` : vừa tạo branch vừa chuyển branch.
 
+`git checkout <commit_code>` : để quay lại commit có mã <commit_code>
+
+`git checkout <branch_name>` : để chuyển nhánh của mình và code
 
 
 `git push <remote_name> <branch_name>` : 
