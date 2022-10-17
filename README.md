@@ -1,4 +1,4 @@
-##Lệnh git cơ bản
+## Lệnh git cơ bản
 git init : khởi tạo git
 git add .
 git commit -m"<msg>"
@@ -18,7 +18,7 @@ git push <remote_name> <branch_name> :
 	Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github.
 
 
-##Quy trình: 
+##Q uy trình: 
 	VD: có một remote tên an_remote
 	- Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
 	- Không thao tác trên nhánh MAIN/MASTER ở GITHUB
@@ -29,10 +29,10 @@ git push <remote_name> <branch_name> :
 	- Nhắn lên nhóm hoặc nhắn trước khi push lên cũng đc
 	- Còn lại để thằng quản lý git xử lý, bấm nhiều quá hư project
 
-##Lưu ý:
+## Lưu ý:
 	- <remote_name>/<branch_name> : là trỏ đến nhánh <branch_name> trên github mà <remote_name> trỏ đến
 	- Luôn kiểm tra có đang ở nhánh của mình không? nếu không thì chuyển sang
 
-##Quản lý git:
+## Quản lý git:
 	- Một khi có merge thì thông báo lại cho nhóm
 	- Nếu có đụng độ trên main khi merge các nhánh từ tv thì tv đó sẽ hỗ trợ giải quyết
