@@ -1,5 +1,5 @@
 ## Lệnh git cơ bản
-git init : khởi tạo git
+`git init` : khởi tạo git
 git add .
 git commit -m"<msg>"
 git log --oneline : để xem lịch sử commit
