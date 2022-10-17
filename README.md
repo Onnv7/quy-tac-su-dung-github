@@ -20,8 +20,8 @@
 
 
 `git push <remote_name> <branch_name>` : 
-- đẩy nhánh <branch_name> ở local lên nhánh <branch_name> ở github
-- Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github.
+- Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github và
+- Đẩy nhánh <branch_name> ở local lên nhánh <branch_name> ở github
 
 
 ## Quy trình chung đối với mọi người: 
