@@ -23,7 +23,7 @@
 	Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github.
 
 
-## Quy trình: 
+## Quy trình chung đối với mọi người: 
 **VD: có một remote tên an_remote**
 - Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
 - Không thao tác trên nhánh MAIN/MASTER ở GITHUB
@@ -36,8 +36,8 @@
 
 ## Lưu ý:
 - <remote_name>/<branch_name> : là trỏ đến nhánh <branch_name> trên github mà <remote_name> trỏ đến
-- Luôn kiểm tra có đang ở nhánh của mình không? nếu không thì chuyển sang
+- Luôn kiểm tra có đang ở **nhánh của mình không**? nếu không thì chuyển về nhánh của mình rồi code
 
-## Quản lý git:
-- Một khi có merge thì thông báo lại cho nhóm
-- Nếu có đụng độ trên main khi merge các nhánh từ tv thì tv đó sẽ hỗ trợ giải quyết
+## Đối với người quản lý git:
+- Một khi có merge thì **thông báo lại cho nhóm**
+- Nếu có đụng độ trên main khi merge các nhánh từ thành viên thì **thành viên đó sẽ hỗ trợ giải quyết**
