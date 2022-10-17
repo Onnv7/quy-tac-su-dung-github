@@ -1,25 +1,25 @@
 ## Lệnh git cơ bản
 `git init` : khởi tạo git
-git add .
-git commit -m"<msg>"
-git log --oneline : để xem lịch sử commit
-git checkout <commit_code> : để quay lại commit trước
+`git add .`
+`git commit -m"<msg>"`
+`git log --oneline` : để xem lịch sử commit
+`git checkout <commit_code>` : để quay lại commit trước
 
-git remote add <remote_name> <url> : tạo remote tới repo github
+`git remote add <remote_name> <url>` : tạo remote tới repo github
 
-git pull <remote_name> main : pull nhánh main về local
+`git pull <remote_name> main` : pull nhánh main về local
 
-git checkout -b <branch_name> : vừa tạo branch vừa chuyển branch.
+`git checkout -b <branch_name>` : vừa tạo branch vừa chuyển branch.
 
 
 
-git push <remote_name> <branch_name> : 
+`git push <remote_name> <branch_name>` : 
 	đẩy nhánh <branch_name> ở local lên nhánh <branch_name> ở github
 	Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github.
 
 
 ## Quy trình: 
-	VD: có một remote tên an_remote
+**VD: có một remote tên an_remote**
 	- Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
 	- Không thao tác trên nhánh MAIN/MASTER ở GITHUB
 	- Pull về rồi tạo một branch với tên của mình vd : git checkout -b nguyenvanan
