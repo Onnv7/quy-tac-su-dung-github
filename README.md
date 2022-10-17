@@ -18,7 +18,7 @@ git push <remote_name> <branch_name> :
 	Khi push lần đầu, đồng nghĩa với việc tạo thêm một nhánh <branch_name> ở trên github.
 
 
-##Q uy trình: 
+## Quy trình: 
 	VD: có một remote tên an_remote
 	- Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
 	- Không thao tác trên nhánh MAIN/MASTER ở GITHUB
