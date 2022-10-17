@@ -25,7 +25,7 @@
 
 ## Quy trình: 
 **VD: có một remote tên an_remote**
-	- Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
+- Đầu tiên pull nhánh main trên git về mà code: git pull an_remote main
 	- Không thao tác trên nhánh MAIN/MASTER ở GITHUB
 	- Pull về rồi tạo một branch với tên của mình vd : git checkout -b nguyenvanan
 	- Khi làm code xong => dùng git push an_remote nguyenvanan
