@@ -1,8 +1,13 @@
 ## Lệnh git cơ bản
+
 `git init` : khởi tạo git
+
 `git add .`
+
 `git commit -m"<msg>"`
+
 `git log --oneline` : để xem lịch sử commit
+
 `git checkout <commit_code>` : để quay lại commit trước
 
 `git remote add <remote_name> <url>` : tạo remote tới repo github
